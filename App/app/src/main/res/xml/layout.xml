@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        drawable="@drawable/ic_filledhome"
+        text="@string/home" />
+
+    <tab
+        drawable="@drawable/ic_searchfilled"
+        text="@string/search" />
+
+    <tab
+        drawable="@drawable/ic_addfilled"
+        text="@string/add" />
+
+    <tab
+        drawable="@drawable/ic_messagefilled"
+        text="@string/message" />
+
+    <tab
+        drawable="@drawable/ic_users"
+        text="@string/profile" />
+</tabs>

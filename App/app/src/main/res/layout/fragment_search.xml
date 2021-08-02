@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SearchFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/ucrop_frame"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginRight="30dp">
+
+        <ImageView
+
+            android:id="@+id/menuBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menubar" />
+
+        <ImageView
+            android:id="@+id/logoMainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_worldwide__1_" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textVew9"
+        android:layout_below="@id/ucrop_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+
+        android:fontFamily="@font/poppins_bold"
+        android:text="Search"
+        android:textColor="@color/textgray"
+        android:textSize="40sp" />
+
+    <FrameLayout
+        android:background="@drawable/background_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_frame"
+        android:layout_below="@id/textVew9"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_searchfilled" />
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_bar"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="4dp"
+            android:maxLines="1"
+            android:hint="Search.."
+            android:textColorHint="@color/textgray"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/textgray"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
+
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_frame"
+        android:layout_margin="15dp"
+        android:id="@+id/user_recycler_view"
+
+        />
+
+</RelativeLayout>

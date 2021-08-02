@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".Options">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/logoutTemporary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Settings"
+            android:textColor="@color/textgray"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/logoMainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_worldwide__1_" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        >
+
+        <TextView
+            android:id="@+id/profileSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="profile Settings"
+            android:textColor="@color/textgray"
+            android:fontFamily="@font/poppins_light"
+            android:layout_gravity="center"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/textgray"
+            android:fontFamily="@font/poppins_light"
+            android:layout_gravity="center"
+            android:textSize="22sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

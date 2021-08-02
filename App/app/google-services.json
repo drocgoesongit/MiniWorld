@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729592748886",
+    "project_id": "mini-world-2e912",
+    "storage_bucket": "mini-world-2e912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729592748886:android:816542db329880edc694f7",
+        "android_client_info": {
+          "package_name": "com.example.miniworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729592748886-1buf0k0mcsq6t59uovq4vpqo3pf7m1js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD5zhxDXxasW6GEj4QOLuqB6360whffAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729592748886-1buf0k0mcsq6t59uovq4vpqo3pf7m1js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

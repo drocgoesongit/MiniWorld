@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_marginRight="15dp"
+    android:backgroundTint="@color/white"
+    android:outlineAmbientShadowColor="@color/white"
+    android:outlineSpotShadowColor="@color/white"
+    app:cardCornerRadius="23dp"
+    app:cardElevation="55dp"
+    app:strokeColor="@color/white"
+    app:strokeWidth="3dp">
+
+
+    <ImageView
+        android:id="@+id/storyProfilePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_worldwide__1_" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/storyusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingTop="50dp"
+            android:text="habibi"
+            android:textColor="@color/white">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

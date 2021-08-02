@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/background_round"
+        android:layout_marginBottom="10dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/user_profile_photo"
+            android:src="@drawable/ic_users"
+            android:layout_margin="10dp"
+            app:civ_border_color="@color/textgray"
+            app:civ_border_width="5dp"
+            app:tint="@color/textgray"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username_search"
+                android:text="username"
+                android:textColor="@color/textgray"
+                android:fontFamily="@font/poppins_light"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fullname_search"
+                android:text="fullname"
+                android:textColor="@color/textgray"
+                android:fontFamily="@font/poppins_light"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

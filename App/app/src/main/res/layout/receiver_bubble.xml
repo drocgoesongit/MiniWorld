@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/receiver_background"
+    android:layout_margin="6dp"
+    >
+
+    <TextView
+        android:id="@+id/receivertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="what is good and what is ba nobody knows properly adn we aree good"
+        android:textSize="18sp"
+        android:maxWidth="200dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="6dp"
+        android:minWidth="80dp"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

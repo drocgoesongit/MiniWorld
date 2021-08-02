@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".AddStory">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Add a picture"
+        android:textColor="@color/textgray"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="for Story"
+        android:textColor="@color/textgray"
+        android:textSize="24sp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="225dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="23dp"
+        app:strokeColor="@color/pirple"
+        app:strokeWidth="3dp">
+
+        <ImageView
+            android:id="@+id/storyImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+
+
+            android:src="@drawable/story_drawable" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/editStory"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_pencil"
+        app:tint="@color/white" />
+
+    <Button
+        android:id="@+id/addStoryImage"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_round"
+
+
+        android:backgroundTint="@color/pirple"
+        android:text="@string/add"
+        android:textColor="@color/textgray"
+        app:backgroundTint="@color/pirple" />
+
+</LinearLayout>
